@@ -1,0 +1,55 @@
+/********************************************************************************
+** Form generated from reading UI file 'm1.ui'
+**
+** Created by: Qt User Interface Compiler version 5.9.9
+**
+** WARNING! All changes made in this file will be lost when recompiling UI file!
+********************************************************************************/
+
+#ifndef UI_M1_H
+#define UI_M1_H
+
+#include <QtCore/QVariant>
+#include <QtWidgets/QAction>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QButtonGroup>
+#include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QWidget>
+
+QT_BEGIN_NAMESPACE
+
+class Ui_M1
+{
+public:
+    QLabel *label;
+
+    void setupUi(QWidget *M1)
+    {
+        if (M1->objectName().isEmpty())
+            M1->setObjectName(QStringLiteral("M1"));
+        M1->resize(400, 300);
+        label = new QLabel(M1);
+        label->setObjectName(QStringLiteral("label"));
+        label->setGeometry(QRect(63, 99, 181, 51));
+
+        retranslateUi(M1);
+
+        QMetaObject::connectSlotsByName(M1);
+    } // setupUi
+
+    void retranslateUi(QWidget *M1)
+    {
+        M1->setWindowTitle(QApplication::translate("M1", "M1", Q_NULLPTR));
+        label->setText(QApplication::translate("M1", "Hello World", Q_NULLPTR));
+    } // retranslateUi
+
+};
+
+namespace Ui {
+    class M1: public Ui_M1 {};
+} // namespace Ui
+
+QT_END_NAMESPACE
+
+#endif // UI_M1_H

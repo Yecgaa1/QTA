@@ -1,0 +1,13 @@
+#include <QCoreApplication>
+#include <QDebug>
+#include <QtWidgets/QWidget>
+#include "ui_m1.h.tmp"
+
+int main(int argc, char *argv[]) {
+    QCoreApplication a(argc, argv);
+    QWidget *w = new QWidget();
+    Ui::M1 createUi;
+    createUi.setupUi(w);
+    w->show();
+    return a.exec();
+}
