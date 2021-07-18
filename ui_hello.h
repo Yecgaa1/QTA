@@ -32,7 +32,7 @@ public:
         label->setGeometry(QRect(10, 10, 200, 40));
 
         retranslateUi(Form);
-
+        this
         QMetaObject::connectSlotsByName(Form);
     } // setupUi
 

@@ -13,17 +13,17 @@
   <property name="windowTitle">
    <string>M1</string>
   </property>
-  <widget class="QLabel" name="label">
+  <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>63</x>
-     <y>99</y>
-     <width>181</width>
-     <height>51</height>
+     <x>150</x>
+     <y>130</y>
+     <width>75</width>
+     <height>23</height>
     </rect>
    </property>
    <property name="text">
-    <string>Hello World</string>
+    <string>PushButton</string>
    </property>
   </widget>
  </widget>
